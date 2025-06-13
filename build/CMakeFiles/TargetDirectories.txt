@@ -1,0 +1,3 @@
+C:/Users/Ercan/OneDrive/Masaüstü/VirtualMuseum/build/CMakeFiles/VirtualMuseum.dir
+C:/Users/Ercan/OneDrive/Masaüstü/VirtualMuseum/build/CMakeFiles/ALL_BUILD.dir
+C:/Users/Ercan/OneDrive/Masaüstü/VirtualMuseum/build/CMakeFiles/ZERO_CHECK.dir

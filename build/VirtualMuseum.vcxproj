@@ -1,0 +1,400 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project DefaultTargets="Build" ToolsVersion="17.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <PropertyGroup>
+    <PreferredToolArchitecture>x64</PreferredToolArchitecture>
+  </PropertyGroup>
+  <ItemGroup Label="ProjectConfigurations">
+    <ProjectConfiguration Include="Debug|x64">
+      <Configuration>Debug</Configuration>
+      <Platform>x64</Platform>
+    </ProjectConfiguration>
+    <ProjectConfiguration Include="Release|x64">
+      <Configuration>Release</Configuration>
+      <Platform>x64</Platform>
+    </ProjectConfiguration>
+    <ProjectConfiguration Include="MinSizeRel|x64">
+      <Configuration>MinSizeRel</Configuration>
+      <Platform>x64</Platform>
+    </ProjectConfiguration>
+    <ProjectConfiguration Include="RelWithDebInfo|x64">
+      <Configuration>RelWithDebInfo</Configuration>
+      <Platform>x64</Platform>
+    </ProjectConfiguration>
+  </ItemGroup>
+  <PropertyGroup Label="Globals">
+    <ProjectGuid>{9AACA934-EF41-339A-B555-E4D176E36237}</ProjectGuid>
+    <Keyword>Win32Proj</Keyword>
+    <VcpkgEnabled>false</VcpkgEnabled>
+    <WindowsTargetPlatformVersion>10.0.22621.0</WindowsTargetPlatformVersion>
+    <Platform>x64</Platform>
+    <ProjectName>VirtualMuseum</ProjectName>
+    <VCProjectUpgraderObjectName>NoUpgrade</VCProjectUpgraderObjectName>
+  </PropertyGroup>
+  <Import Project="$(VCTargetsPath)\Microsoft.Cpp.Default.props" />
+  <PropertyGroup Condition="'$(Configuration)|$(Platform)'=='Debug|x64'" Label="Configuration">
+    <ConfigurationType>Application</ConfigurationType>
+    <CharacterSet>MultiByte</CharacterSet>
+    <PlatformToolset>v143</PlatformToolset>
+  </PropertyGroup>
+  <PropertyGroup Condition="'$(Configuration)|$(Platform)'=='Release|x64'" Label="Configuration">
+    <ConfigurationType>Application</ConfigurationType>
+    <CharacterSet>MultiByte</CharacterSet>
+    <PlatformToolset>v143</PlatformToolset>
+  </PropertyGroup>
+  <PropertyGroup Condition="'$(Configuration)|$(Platform)'=='MinSizeRel|x64'" Label="Configuration">
+    <ConfigurationType>Application</ConfigurationType>
+    <CharacterSet>MultiByte</CharacterSet>
+    <PlatformToolset>v143</PlatformToolset>
+  </PropertyGroup>
+  <PropertyGroup Condition="'$(Configuration)|$(Platform)'=='RelWithDebInfo|x64'" Label="Configuration">
+    <ConfigurationType>Application</ConfigurationType>
+    <CharacterSet>MultiByte</CharacterSet>
+    <PlatformToolset>v143</PlatformToolset>
+  </PropertyGroup>
+  <Import Project="$(VCTargetsPath)\Microsoft.Cpp.props" />
+  <ImportGroup Label="ExtensionSettings">
+  </ImportGroup>
+  <ImportGroup Label="PropertySheets">
+    <Import Project="do_not_import_user.props" Condition="exists('do_not_import_user.props')" Label="LocalAppDataPlatform" />
+  </ImportGroup>
+  <PropertyGroup Label="UserMacros" />
+  <PropertyGroup>
+    <_ProjectFileVersion>10.0.20506.1</_ProjectFileVersion>
+    <OutDir Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">C:\Users\Ercan\OneDrive\Masaüstü\VirtualMuseum\build\Debug\</OutDir>
+    <IntDir Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">VirtualMuseum.dir\Debug\</IntDir>
+    <TargetName Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">VirtualMuseum</TargetName>
+    <TargetExt Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">.exe</TargetExt>
+    <LinkIncremental Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">true</LinkIncremental>
+    <GenerateManifest Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">true</GenerateManifest>
+    <OutDir Condition="'$(Configuration)|$(Platform)'=='Release|x64'">C:\Users\Ercan\OneDrive\Masaüstü\VirtualMuseum\build\Release\</OutDir>
+    <IntDir Condition="'$(Configuration)|$(Platform)'=='Release|x64'">VirtualMuseum.dir\Release\</IntDir>
+    <TargetName Condition="'$(Configuration)|$(Platform)'=='Release|x64'">VirtualMuseum</TargetName>
+    <TargetExt Condition="'$(Configuration)|$(Platform)'=='Release|x64'">.exe</TargetExt>
+    <LinkIncremental Condition="'$(Configuration)|$(Platform)'=='Release|x64'">false</LinkIncremental>
+    <GenerateManifest Condition="'$(Configuration)|$(Platform)'=='Release|x64'">true</GenerateManifest>
+    <OutDir Condition="'$(Configuration)|$(Platform)'=='MinSizeRel|x64'">C:\Users\Ercan\OneDrive\Masaüstü\VirtualMuseum\build\MinSizeRel\</OutDir>
+    <IntDir Condition="'$(Configuration)|$(Platform)'=='MinSizeRel|x64'">VirtualMuseum.dir\MinSizeRel\</IntDir>
+    <TargetName Condition="'$(Configuration)|$(Platform)'=='MinSizeRel|x64'">VirtualMuseum</TargetName>
+    <TargetExt Condition="'$(Configuration)|$(Platform)'=='MinSizeRel|x64'">.exe</TargetExt>
+    <LinkIncremental Condition="'$(Configuration)|$(Platform)'=='MinSizeRel|x64'">false</LinkIncremental>
+    <GenerateManifest Condition="'$(Configuration)|$(Platform)'=='MinSizeRel|x64'">true</GenerateManifest>
+    <OutDir Condition="'$(Configuration)|$(Platform)'=='RelWithDebInfo|x64'">C:\Users\Ercan\OneDrive\Masaüstü\VirtualMuseum\build\RelWithDebInfo\</OutDir>
+    <IntDir Condition="'$(Configuration)|$(Platform)'=='RelWithDebInfo|x64'">VirtualMuseum.dir\RelWithDebInfo\</IntDir>
+    <TargetName Condition="'$(Configuration)|$(Platform)'=='RelWithDebInfo|x64'">VirtualMuseum</TargetName>
+    <TargetExt Condition="'$(Configuration)|$(Platform)'=='RelWithDebInfo|x64'">.exe</TargetExt>
+    <LinkIncremental Condition="'$(Configuration)|$(Platform)'=='RelWithDebInfo|x64'">true</LinkIncremental>
+    <GenerateManifest Condition="'$(Configuration)|$(Platform)'=='RelWithDebInfo|x64'">true</GenerateManifest>
+  </PropertyGroup>
+  <ItemDefinitionGroup Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">
+    <ClCompile>
+      <AdditionalIncludeDirectories>C:\Users\Ercan\OneDrive\Masaüstü\VirtualMuseum\extern\imgui;C:\Users\Ercan\OneDrive\Masaüstü\VirtualMuseum\extern\imgui\backends;C:\Users\Ercan\OneDrive\Masaüstü\VirtualMuseum\src;C:\Users\Ercan\OneDrive\Masaüstü\VirtualMuseum\shaders;%(AdditionalIncludeDirectories)</AdditionalIncludeDirectories>
+      <AdditionalOptions>%(AdditionalOptions) /external:I "C:/vcpkg/installed/x64-windows/include"</AdditionalOptions>
+      <AssemblerListingLocation>$(IntDir)</AssemblerListingLocation>
+      <BasicRuntimeChecks>EnableFastChecks</BasicRuntimeChecks>
+      <DebugInformationFormat>ProgramDatabase</DebugInformationFormat>
+      <ExceptionHandling>Sync</ExceptionHandling>
+      <ExternalWarningLevel>TurnOffAllWarnings</ExternalWarningLevel>
+      <InlineFunctionExpansion>Disabled</InlineFunctionExpansion>
+      <LanguageStandard>stdcpp17</LanguageStandard>
+      <Optimization>Disabled</Optimization>
+      <PrecompiledHeader>NotUsing</PrecompiledHeader>
+      <RuntimeLibrary>MultiThreadedDebugDLL</RuntimeLibrary>
+      <RuntimeTypeInfo>true</RuntimeTypeInfo>
+      <UseFullPaths>false</UseFullPaths>
+      <WarningLevel>Level3</WarningLevel>
+      <PreprocessorDefinitions>%(PreprocessorDefinitions);WIN32;_WINDOWS;GLM_ENABLE_EXPERIMENTAL;GLFW_DLL;CMAKE_INTDIR="Debug"</PreprocessorDefinitions>
+      <ObjectFileName>$(IntDir)</ObjectFileName>
+    </ClCompile>
+    <ResourceCompile>
+      <PreprocessorDefinitions>%(PreprocessorDefinitions);WIN32;_DEBUG;_WINDOWS;GLM_ENABLE_EXPERIMENTAL;GLFW_DLL;CMAKE_INTDIR=\"Debug\"</PreprocessorDefinitions>
+      <AdditionalIncludeDirectories>C:\Users\Ercan\OneDrive\Masaüstü\VirtualMuseum\extern\imgui;C:\Users\Ercan\OneDrive\Masaüstü\VirtualMuseum\extern\imgui\backends;C:\Users\Ercan\OneDrive\Masaüstü\VirtualMuseum\src;C:\Users\Ercan\OneDrive\Masaüstü\VirtualMuseum\shaders;C:\vcpkg\installed\x64-windows\include;%(AdditionalIncludeDirectories)</AdditionalIncludeDirectories>
+    </ResourceCompile>
+    <Midl>
+      <AdditionalIncludeDirectories>C:\Users\Ercan\OneDrive\Masaüstü\VirtualMuseum\extern\imgui;C:\Users\Ercan\OneDrive\Masaüstü\VirtualMuseum\extern\imgui\backends;C:\Users\Ercan\OneDrive\Masaüstü\VirtualMuseum\src;C:\Users\Ercan\OneDrive\Masaüstü\VirtualMuseum\shaders;C:\vcpkg\installed\x64-windows\include;%(AdditionalIncludeDirectories)</AdditionalIncludeDirectories>
+      <OutputDirectory>$(ProjectDir)/$(IntDir)</OutputDirectory>
+      <HeaderFileName>%(Filename).h</HeaderFileName>
+      <TypeLibraryName>%(Filename).tlb</TypeLibraryName>
+      <InterfaceIdentifierFileName>%(Filename)_i.c</InterfaceIdentifierFileName>
+      <ProxyFileName>%(Filename)_p.c</ProxyFileName>
+    </Midl>
+    <PostBuildEvent>
+      <Message></Message>
+      <Command>setlocal
+C:\Windows\System32\WindowsPowerShell\v1.0\powershell.exe -noprofile -executionpolicy Bypass -file C:/vcpkg/scripts/buildsystems/msbuild/applocal.ps1 -targetBinary C:/Users/Ercan/OneDrive/Masaüstü/VirtualMuseum/build/Debug/VirtualMuseum.exe -installedDir C:/vcpkg/installed/x64-windows/debug/bin -OutVariable out
+if %errorlevel% neq 0 goto :cmEnd
+:cmEnd
+endlocal &amp; call :cmErrorLevel %errorlevel% &amp; goto :cmDone
+:cmErrorLevel
+exit /b %1
+:cmDone
+if %errorlevel% neq 0 goto :VCEnd</Command>
+    </PostBuildEvent>
+    <Link>
+      <AdditionalDependencies>C:\vcpkg\installed\x64-windows\debug\lib\glfw3dll.lib;C:\vcpkg\installed\x64-windows\debug\lib\assimp-vc143-mtd.lib;C:\vcpkg\installed\x64-windows\debug\lib\glm.lib;C:\vcpkg\installed\x64-windows\debug\lib\glad.lib;C:\vcpkg\installed\x64-windows\debug\lib\imguid.lib;kernel32.lib;user32.lib;gdi32.lib;winspool.lib;shell32.lib;ole32.lib;oleaut32.lib;uuid.lib;comdlg32.lib;advapi32.lib</AdditionalDependencies>
+      <AdditionalLibraryDirectories>%(AdditionalLibraryDirectories)</AdditionalLibraryDirectories>
+      <AdditionalOptions>%(AdditionalOptions) /machine:x64</AdditionalOptions>
+      <GenerateDebugInformation>true</GenerateDebugInformation>
+      <IgnoreSpecificDefaultLibraries>%(IgnoreSpecificDefaultLibraries)</IgnoreSpecificDefaultLibraries>
+      <ImportLibrary>C:/Users/Ercan/OneDrive/Masaüstü/VirtualMuseum/build/Debug/VirtualMuseum.lib</ImportLibrary>
+      <ProgramDataBaseFile>C:/Users/Ercan/OneDrive/Masaüstü/VirtualMuseum/build/Debug/VirtualMuseum.pdb</ProgramDataBaseFile>
+      <SubSystem>Console</SubSystem>
+    </Link>
+    <ProjectReference>
+      <LinkLibraryDependencies>false</LinkLibraryDependencies>
+    </ProjectReference>
+  </ItemDefinitionGroup>
+  <ItemDefinitionGroup Condition="'$(Configuration)|$(Platform)'=='Release|x64'">
+    <ClCompile>
+      <AdditionalIncludeDirectories>C:\Users\Ercan\OneDrive\Masaüstü\VirtualMuseum\extern\imgui;C:\Users\Ercan\OneDrive\Masaüstü\VirtualMuseum\extern\imgui\backends;C:\Users\Ercan\OneDrive\Masaüstü\VirtualMuseum\src;C:\Users\Ercan\OneDrive\Masaüstü\VirtualMuseum\shaders;%(AdditionalIncludeDirectories)</AdditionalIncludeDirectories>
+      <AdditionalOptions>%(AdditionalOptions) /external:I "C:/vcpkg/installed/x64-windows/include"</AdditionalOptions>
+      <AssemblerListingLocation>$(IntDir)</AssemblerListingLocation>
+      <ExceptionHandling>Sync</ExceptionHandling>
+      <ExternalWarningLevel>TurnOffAllWarnings</ExternalWarningLevel>
+      <InlineFunctionExpansion>AnySuitable</InlineFunctionExpansion>
+      <LanguageStandard>stdcpp17</LanguageStandard>
+      <Optimization>MaxSpeed</Optimization>
+      <PrecompiledHeader>NotUsing</PrecompiledHeader>
+      <RuntimeLibrary>MultiThreadedDLL</RuntimeLibrary>
+      <RuntimeTypeInfo>true</RuntimeTypeInfo>
+      <UseFullPaths>false</UseFullPaths>
+      <WarningLevel>Level3</WarningLevel>
+      <PreprocessorDefinitions>%(PreprocessorDefinitions);WIN32;_WINDOWS;NDEBUG;GLM_ENABLE_EXPERIMENTAL;GLFW_DLL;CMAKE_INTDIR="Release"</PreprocessorDefinitions>
+      <ObjectFileName>$(IntDir)</ObjectFileName>
+      <DebugInformationFormat>
+      </DebugInformationFormat>
+    </ClCompile>
+    <ResourceCompile>
+      <PreprocessorDefinitions>%(PreprocessorDefinitions);WIN32;_WINDOWS;NDEBUG;GLM_ENABLE_EXPERIMENTAL;GLFW_DLL;CMAKE_INTDIR=\"Release\"</PreprocessorDefinitions>
+      <AdditionalIncludeDirectories>C:\Users\Ercan\OneDrive\Masaüstü\VirtualMuseum\extern\imgui;C:\Users\Ercan\OneDrive\Masaüstü\VirtualMuseum\extern\imgui\backends;C:\Users\Ercan\OneDrive\Masaüstü\VirtualMuseum\src;C:\Users\Ercan\OneDrive\Masaüstü\VirtualMuseum\shaders;C:\vcpkg\installed\x64-windows\include;%(AdditionalIncludeDirectories)</AdditionalIncludeDirectories>
+    </ResourceCompile>
+    <Midl>
+      <AdditionalIncludeDirectories>C:\Users\Ercan\OneDrive\Masaüstü\VirtualMuseum\extern\imgui;C:\Users\Ercan\OneDrive\Masaüstü\VirtualMuseum\extern\imgui\backends;C:\Users\Ercan\OneDrive\Masaüstü\VirtualMuseum\src;C:\Users\Ercan\OneDrive\Masaüstü\VirtualMuseum\shaders;C:\vcpkg\installed\x64-windows\include;%(AdditionalIncludeDirectories)</AdditionalIncludeDirectories>
+      <OutputDirectory>$(ProjectDir)/$(IntDir)</OutputDirectory>
+      <HeaderFileName>%(Filename).h</HeaderFileName>
+      <TypeLibraryName>%(Filename).tlb</TypeLibraryName>
+      <InterfaceIdentifierFileName>%(Filename)_i.c</InterfaceIdentifierFileName>
+      <ProxyFileName>%(Filename)_p.c</ProxyFileName>
+    </Midl>
+    <PostBuildEvent>
+      <Message></Message>
+      <Command>setlocal
+C:\Windows\System32\WindowsPowerShell\v1.0\powershell.exe -noprofile -executionpolicy Bypass -file C:/vcpkg/scripts/buildsystems/msbuild/applocal.ps1 -targetBinary C:/Users/Ercan/OneDrive/Masaüstü/VirtualMuseum/build/Release/VirtualMuseum.exe -installedDir C:/vcpkg/installed/x64-windows/bin -OutVariable out
+if %errorlevel% neq 0 goto :cmEnd
+:cmEnd
+endlocal &amp; call :cmErrorLevel %errorlevel% &amp; goto :cmDone
+:cmErrorLevel
+exit /b %1
+:cmDone
+if %errorlevel% neq 0 goto :VCEnd</Command>
+    </PostBuildEvent>
+    <Link>
+      <AdditionalDependencies>C:\vcpkg\installed\x64-windows\lib\glfw3dll.lib;C:\vcpkg\installed\x64-windows\lib\assimp-vc143-mt.lib;C:\vcpkg\installed\x64-windows\lib\glm.lib;C:\vcpkg\installed\x64-windows\lib\glad.lib;C:\vcpkg\installed\x64-windows\lib\imgui.lib;kernel32.lib;user32.lib;gdi32.lib;winspool.lib;shell32.lib;ole32.lib;oleaut32.lib;uuid.lib;comdlg32.lib;advapi32.lib</AdditionalDependencies>
+      <AdditionalLibraryDirectories>%(AdditionalLibraryDirectories)</AdditionalLibraryDirectories>
+      <AdditionalOptions>%(AdditionalOptions) /machine:x64</AdditionalOptions>
+      <GenerateDebugInformation>false</GenerateDebugInformation>
+      <IgnoreSpecificDefaultLibraries>%(IgnoreSpecificDefaultLibraries)</IgnoreSpecificDefaultLibraries>
+      <ImportLibrary>C:/Users/Ercan/OneDrive/Masaüstü/VirtualMuseum/build/Release/VirtualMuseum.lib</ImportLibrary>
+      <ProgramDataBaseFile>C:/Users/Ercan/OneDrive/Masaüstü/VirtualMuseum/build/Release/VirtualMuseum.pdb</ProgramDataBaseFile>
+      <SubSystem>Console</SubSystem>
+    </Link>
+    <ProjectReference>
+      <LinkLibraryDependencies>false</LinkLibraryDependencies>
+    </ProjectReference>
+  </ItemDefinitionGroup>
+  <ItemDefinitionGroup Condition="'$(Configuration)|$(Platform)'=='MinSizeRel|x64'">
+    <ClCompile>
+      <AdditionalIncludeDirectories>C:\Users\Ercan\OneDrive\Masaüstü\VirtualMuseum\extern\imgui;C:\Users\Ercan\OneDrive\Masaüstü\VirtualMuseum\extern\imgui\backends;C:\Users\Ercan\OneDrive\Masaüstü\VirtualMuseum\src;C:\Users\Ercan\OneDrive\Masaüstü\VirtualMuseum\shaders;%(AdditionalIncludeDirectories)</AdditionalIncludeDirectories>
+      <AdditionalOptions>%(AdditionalOptions) /external:I "C:/vcpkg/installed/x64-windows/include"</AdditionalOptions>
+      <AssemblerListingLocation>$(IntDir)</AssemblerListingLocation>
+      <ExceptionHandling>Sync</ExceptionHandling>
+      <ExternalWarningLevel>TurnOffAllWarnings</ExternalWarningLevel>
+      <InlineFunctionExpansion>OnlyExplicitInline</InlineFunctionExpansion>
+      <LanguageStandard>stdcpp17</LanguageStandard>
+      <Optimization>MinSpace</Optimization>
+      <PrecompiledHeader>NotUsing</PrecompiledHeader>
+      <RuntimeLibrary>MultiThreadedDLL</RuntimeLibrary>
+      <RuntimeTypeInfo>true</RuntimeTypeInfo>
+      <UseFullPaths>false</UseFullPaths>
+      <WarningLevel>Level3</WarningLevel>
+      <PreprocessorDefinitions>%(PreprocessorDefinitions);WIN32;_WINDOWS;NDEBUG;GLM_ENABLE_EXPERIMENTAL;GLFW_DLL;CMAKE_INTDIR="MinSizeRel"</PreprocessorDefinitions>
+      <ObjectFileName>$(IntDir)</ObjectFileName>
+      <DebugInformationFormat>
+      </DebugInformationFormat>
+    </ClCompile>
+    <ResourceCompile>
+      <PreprocessorDefinitions>%(PreprocessorDefinitions);WIN32;_WINDOWS;NDEBUG;GLM_ENABLE_EXPERIMENTAL;GLFW_DLL;CMAKE_INTDIR=\"MinSizeRel\"</PreprocessorDefinitions>
+      <AdditionalIncludeDirectories>C:\Users\Ercan\OneDrive\Masaüstü\VirtualMuseum\extern\imgui;C:\Users\Ercan\OneDrive\Masaüstü\VirtualMuseum\extern\imgui\backends;C:\Users\Ercan\OneDrive\Masaüstü\VirtualMuseum\src;C:\Users\Ercan\OneDrive\Masaüstü\VirtualMuseum\shaders;C:\vcpkg\installed\x64-windows\include;%(AdditionalIncludeDirectories)</AdditionalIncludeDirectories>
+    </ResourceCompile>
+    <Midl>
+      <AdditionalIncludeDirectories>C:\Users\Ercan\OneDrive\Masaüstü\VirtualMuseum\extern\imgui;C:\Users\Ercan\OneDrive\Masaüstü\VirtualMuseum\extern\imgui\backends;C:\Users\Ercan\OneDrive\Masaüstü\VirtualMuseum\src;C:\Users\Ercan\OneDrive\Masaüstü\VirtualMuseum\shaders;C:\vcpkg\installed\x64-windows\include;%(AdditionalIncludeDirectories)</AdditionalIncludeDirectories>
+      <OutputDirectory>$(ProjectDir)/$(IntDir)</OutputDirectory>
+      <HeaderFileName>%(Filename).h</HeaderFileName>
+      <TypeLibraryName>%(Filename).tlb</TypeLibraryName>
+      <InterfaceIdentifierFileName>%(Filename)_i.c</InterfaceIdentifierFileName>
+      <ProxyFileName>%(Filename)_p.c</ProxyFileName>
+    </Midl>
+    <PostBuildEvent>
+      <Message></Message>
+      <Command>setlocal
+C:\Windows\System32\WindowsPowerShell\v1.0\powershell.exe -noprofile -executionpolicy Bypass -file C:/vcpkg/scripts/buildsystems/msbuild/applocal.ps1 -targetBinary C:/Users/Ercan/OneDrive/Masaüstü/VirtualMuseum/build/MinSizeRel/VirtualMuseum.exe -installedDir C:/vcpkg/installed/x64-windows/bin -OutVariable out
+if %errorlevel% neq 0 goto :cmEnd
+:cmEnd
+endlocal &amp; call :cmErrorLevel %errorlevel% &amp; goto :cmDone
+:cmErrorLevel
+exit /b %1
+:cmDone
+if %errorlevel% neq 0 goto :VCEnd</Command>
+    </PostBuildEvent>
+    <Link>
+      <AdditionalDependencies>C:\vcpkg\installed\x64-windows\lib\glfw3dll.lib;C:\vcpkg\installed\x64-windows\lib\assimp-vc143-mt.lib;C:\vcpkg\installed\x64-windows\lib\glm.lib;C:\vcpkg\installed\x64-windows\lib\glad.lib;C:\vcpkg\installed\x64-windows\lib\imgui.lib;kernel32.lib;user32.lib;gdi32.lib;winspool.lib;shell32.lib;ole32.lib;oleaut32.lib;uuid.lib;comdlg32.lib;advapi32.lib</AdditionalDependencies>
+      <AdditionalLibraryDirectories>%(AdditionalLibraryDirectories)</AdditionalLibraryDirectories>
+      <AdditionalOptions>%(AdditionalOptions) /machine:x64</AdditionalOptions>
+      <GenerateDebugInformation>false</GenerateDebugInformation>
+      <IgnoreSpecificDefaultLibraries>%(IgnoreSpecificDefaultLibraries)</IgnoreSpecificDefaultLibraries>
+      <ImportLibrary>C:/Users/Ercan/OneDrive/Masaüstü/VirtualMuseum/build/MinSizeRel/VirtualMuseum.lib</ImportLibrary>
+      <ProgramDataBaseFile>C:/Users/Ercan/OneDrive/Masaüstü/VirtualMuseum/build/MinSizeRel/VirtualMuseum.pdb</ProgramDataBaseFile>
+      <SubSystem>Console</SubSystem>
+    </Link>
+    <ProjectReference>
+      <LinkLibraryDependencies>false</LinkLibraryDependencies>
+    </ProjectReference>
+  </ItemDefinitionGroup>
+  <ItemDefinitionGroup Condition="'$(Configuration)|$(Platform)'=='RelWithDebInfo|x64'">
+    <ClCompile>
+      <AdditionalIncludeDirectories>C:\Users\Ercan\OneDrive\Masaüstü\VirtualMuseum\extern\imgui;C:\Users\Ercan\OneDrive\Masaüstü\VirtualMuseum\extern\imgui\backends;C:\Users\Ercan\OneDrive\Masaüstü\VirtualMuseum\src;C:\Users\Ercan\OneDrive\Masaüstü\VirtualMuseum\shaders;%(AdditionalIncludeDirectories)</AdditionalIncludeDirectories>
+      <AdditionalOptions>%(AdditionalOptions) /external:I "C:/vcpkg/installed/x64-windows/include"</AdditionalOptions>
+      <AssemblerListingLocation>$(IntDir)</AssemblerListingLocation>
+      <DebugInformationFormat>ProgramDatabase</DebugInformationFormat>
+      <ExceptionHandling>Sync</ExceptionHandling>
+      <ExternalWarningLevel>TurnOffAllWarnings</ExternalWarningLevel>
+      <InlineFunctionExpansion>OnlyExplicitInline</InlineFunctionExpansion>
+      <LanguageStandard>stdcpp17</LanguageStandard>
+      <Optimization>MaxSpeed</Optimization>
+      <PrecompiledHeader>NotUsing</PrecompiledHeader>
+      <RuntimeLibrary>MultiThreadedDLL</RuntimeLibrary>
+      <RuntimeTypeInfo>true</RuntimeTypeInfo>
+      <UseFullPaths>false</UseFullPaths>
+      <WarningLevel>Level3</WarningLevel>
+      <PreprocessorDefinitions>%(PreprocessorDefinitions);WIN32;_WINDOWS;NDEBUG;GLM_ENABLE_EXPERIMENTAL;GLFW_DLL;CMAKE_INTDIR="RelWithDebInfo"</PreprocessorDefinitions>
+      <ObjectFileName>$(IntDir)</ObjectFileName>
+    </ClCompile>
+    <ResourceCompile>
+      <PreprocessorDefinitions>%(PreprocessorDefinitions);WIN32;_WINDOWS;NDEBUG;GLM_ENABLE_EXPERIMENTAL;GLFW_DLL;CMAKE_INTDIR=\"RelWithDebInfo\"</PreprocessorDefinitions>
+      <AdditionalIncludeDirectories>C:\Users\Ercan\OneDrive\Masaüstü\VirtualMuseum\extern\imgui;C:\Users\Ercan\OneDrive\Masaüstü\VirtualMuseum\extern\imgui\backends;C:\Users\Ercan\OneDrive\Masaüstü\VirtualMuseum\src;C:\Users\Ercan\OneDrive\Masaüstü\VirtualMuseum\shaders;C:\vcpkg\installed\x64-windows\include;%(AdditionalIncludeDirectories)</AdditionalIncludeDirectories>
+    </ResourceCompile>
+    <Midl>
+      <AdditionalIncludeDirectories>C:\Users\Ercan\OneDrive\Masaüstü\VirtualMuseum\extern\imgui;C:\Users\Ercan\OneDrive\Masaüstü\VirtualMuseum\extern\imgui\backends;C:\Users\Ercan\OneDrive\Masaüstü\VirtualMuseum\src;C:\Users\Ercan\OneDrive\Masaüstü\VirtualMuseum\shaders;C:\vcpkg\installed\x64-windows\include;%(AdditionalIncludeDirectories)</AdditionalIncludeDirectories>
+      <OutputDirectory>$(ProjectDir)/$(IntDir)</OutputDirectory>
+      <HeaderFileName>%(Filename).h</HeaderFileName>
+      <TypeLibraryName>%(Filename).tlb</TypeLibraryName>
+      <InterfaceIdentifierFileName>%(Filename)_i.c</InterfaceIdentifierFileName>
+      <ProxyFileName>%(Filename)_p.c</ProxyFileName>
+    </Midl>
+    <PostBuildEvent>
+      <Message></Message>
+      <Command>setlocal
+C:\Windows\System32\WindowsPowerShell\v1.0\powershell.exe -noprofile -executionpolicy Bypass -file C:/vcpkg/scripts/buildsystems/msbuild/applocal.ps1 -targetBinary C:/Users/Ercan/OneDrive/Masaüstü/VirtualMuseum/build/RelWithDebInfo/VirtualMuseum.exe -installedDir C:/vcpkg/installed/x64-windows/bin -OutVariable out
+if %errorlevel% neq 0 goto :cmEnd
+:cmEnd
+endlocal &amp; call :cmErrorLevel %errorlevel% &amp; goto :cmDone
+:cmErrorLevel
+exit /b %1
+:cmDone
+if %errorlevel% neq 0 goto :VCEnd</Command>
+    </PostBuildEvent>
+    <Link>
+      <AdditionalDependencies>C:\vcpkg\installed\x64-windows\lib\glfw3dll.lib;C:\vcpkg\installed\x64-windows\lib\assimp-vc143-mt.lib;C:\vcpkg\installed\x64-windows\lib\glm.lib;C:\vcpkg\installed\x64-windows\lib\glad.lib;C:\vcpkg\installed\x64-windows\lib\imgui.lib;kernel32.lib;user32.lib;gdi32.lib;winspool.lib;shell32.lib;ole32.lib;oleaut32.lib;uuid.lib;comdlg32.lib;advapi32.lib</AdditionalDependencies>
+      <AdditionalLibraryDirectories>%(AdditionalLibraryDirectories)</AdditionalLibraryDirectories>
+      <AdditionalOptions>%(AdditionalOptions) /machine:x64</AdditionalOptions>
+      <GenerateDebugInformation>true</GenerateDebugInformation>
+      <IgnoreSpecificDefaultLibraries>%(IgnoreSpecificDefaultLibraries)</IgnoreSpecificDefaultLibraries>
+      <ImportLibrary>C:/Users/Ercan/OneDrive/Masaüstü/VirtualMuseum/build/RelWithDebInfo/VirtualMuseum.lib</ImportLibrary>
+      <ProgramDataBaseFile>C:/Users/Ercan/OneDrive/Masaüstü/VirtualMuseum/build/RelWithDebInfo/VirtualMuseum.pdb</ProgramDataBaseFile>
+      <SubSystem>Console</SubSystem>
+    </Link>
+    <ProjectReference>
+      <LinkLibraryDependencies>false</LinkLibraryDependencies>
+    </ProjectReference>
+  </ItemDefinitionGroup>
+  <ItemGroup>
+    <CustomBuild Include="C:\Users\Ercan\OneDrive\Masaüstü\VirtualMuseum\CMakeLists.txt">
+      <UseUtf8Encoding>Always</UseUtf8Encoding>
+      <Message Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">Building Custom Rule C:/Users/Ercan/OneDrive/Masaüstü/VirtualMuseum/CMakeLists.txt</Message>
+      <Command Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">setlocal
+C:\Strawberry\c\bin\cmake.exe -SC:/Users/Ercan/OneDrive/Masaüstü/VirtualMuseum -BC:/Users/Ercan/OneDrive/Masaüstü/VirtualMuseum/build --check-stamp-file C:/Users/Ercan/OneDrive/Masaüstü/VirtualMuseum/build/CMakeFiles/generate.stamp
+if %errorlevel% neq 0 goto :cmEnd
+:cmEnd
+endlocal &amp; call :cmErrorLevel %errorlevel% &amp; goto :cmDone
+:cmErrorLevel
+exit /b %1
+:cmDone
+if %errorlevel% neq 0 goto :VCEnd</Command>
+      <AdditionalInputs Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">C:\Strawberry\c\share\cmake-3.26\Modules\CMakeCCompiler.cmake.in;C:\Strawberry\c\share\cmake-3.26\Modules\CMakeCCompilerABI.c;C:\Strawberry\c\share\cmake-3.26\Modules\CMakeCInformation.cmake;C:\Strawberry\c\share\cmake-3.26\Modules\CMakeCXXCompiler.cmake.in;C:\Strawberry\c\share\cmake-3.26\Modules\CMakeCXXCompilerABI.cpp;C:\Strawberry\c\share\cmake-3.26\Modules\CMakeCXXInformation.cmake;C:\Strawberry\c\share\cmake-3.26\Modules\CMakeCommonLanguageInclude.cmake;C:\Strawberry\c\share\cmake-3.26\Modules\CMakeCompilerIdDetection.cmake;C:\Strawberry\c\share\cmake-3.26\Modules\CMakeDependentOption.cmake;C:\Strawberry\c\share\cmake-3.26\Modules\CMakeDetermineCCompiler.cmake;C:\Strawberry\c\share\cmake-3.26\Modules\CMakeDetermineCXXCompiler.cmake;C:\Strawberry\c\share\cmake-3.26\Modules\CMakeDetermineCompileFeatures.cmake;C:\Strawberry\c\share\cmake-3.26\Modules\CMakeDetermineCompiler.cmake;C:\Strawberry\c\share\cmake-3.26\Modules\CMakeDetermineCompilerABI.cmake;C:\Strawberry\c\share\cmake-3.26\Modules\CMakeDetermineCompilerId.cmake;C:\Strawberry\c\share\cmake-3.26\Modules\CMakeDetermineRCCompiler.cmake;C:\Strawberry\c\share\cmake-3.26\Modules\CMakeDetermineSystem.cmake;C:\Strawberry\c\share\cmake-3.26\Modules\CMakeFindBinUtils.cmake;C:\Strawberry\c\share\cmake-3.26\Modules\CMakeFindDependencyMacro.cmake;C:\Strawberry\c\share\cmake-3.26\Modules\CMakeGenericSystem.cmake;C:\Strawberry\c\share\cmake-3.26\Modules\CMakeInitializeConfigs.cmake;C:\Strawberry\c\share\cmake-3.26\Modules\CMakeLanguageInformation.cmake;C:\Strawberry\c\share\cmake-3.26\Modules\CMakeParseImplicitIncludeInfo.cmake;C:\Strawberry\c\share\cmake-3.26\Modules\CMakeParseImplicitLinkInfo.cmake;C:\Strawberry\c\share\cmake-3.26\Modules\CMakeParseLibraryArchitecture.cmake;C:\Strawberry\c\share\cmake-3.26\Modules\CMakeRCCompiler.cmake.in;C:\Strawberry\c\share\cmake-3.26\Modules\CMakeRCInformation.cmake;C:\Strawberry\c\share\cmake-3.26\Modules\CMakeSystem.cmake.in;C:\Strawberry\c\share\cmake-3.26\Modules\CMakeSystemSpecificInformation.cmake;C:\Strawberry\c\share\cmake-3.26\Modules\CMakeSystemSpecificInitialize.cmake;C:\Strawberry\c\share\cmake-3.26\Modules\CMakeTestCCompiler.cmake;C:\Strawberry\c\share\cmake-3.26\Modules\CMakeTestCXXCompiler.cmake;C:\Strawberry\c\share\cmake-3.26\Modules\CMakeTestCompilerCommon.cmake;C:\Strawberry\c\share\cmake-3.26\Modules\CMakeTestRCCompiler.cmake;C:\Strawberry\c\share\cmake-3.26\Modules\CheckCSourceCompiles.cmake;C:\Strawberry\c\share\cmake-3.26\Modules\CheckIncludeFile.cmake;C:\Strawberry\c\share\cmake-3.26\Modules\CheckLibraryExists.cmake;C:\Strawberry\c\share\cmake-3.26\Modules\Compiler\ADSP-DetermineCompiler.cmake;C:\Strawberry\c\share\cmake-3.26\Modules\Compiler\ARMCC-DetermineCompiler.cmake;C:\Strawberry\c\share\cmake-3.26\Modules\Compiler\ARMClang-DetermineCompiler.cmake;C:\Strawberry\c\share\cmake-3.26\Modules\Compiler\AppleClang-DetermineCompiler.cmake;C:\Strawberry\c\share\cmake-3.26\Modules\Compiler\Borland-DetermineCompiler.cmake;C:\Strawberry\c\share\cmake-3.26\Modules\Compiler\Bruce-C-DetermineCompiler.cmake;C:\Strawberry\c\share\cmake-3.26\Modules\Compiler\CMakeCommonCompilerMacros.cmake;C:\Strawberry\c\share\cmake-3.26\Modules\Compiler\Clang-DetermineCompiler.cmake;C:\Strawberry\c\share\cmake-3.26\Modules\Compiler\Clang-DetermineCompilerInternal.cmake;C:\Strawberry\c\share\cmake-3.26\Modules\Compiler\Comeau-CXX-DetermineCompiler.cmake;C:\Strawberry\c\share\cmake-3.26\Modules\Compiler\Compaq-C-DetermineCompiler.cmake;C:\Strawberry\c\share\cmake-3.26\Modules\Compiler\Compaq-CXX-DetermineCompiler.cmake;C:\Strawberry\c\share\cmake-3.26\Modules\Compiler\Cray-DetermineCompiler.cmake;C:\Strawberry\c\share\cmake-3.26\Modules\Compiler\Embarcadero-DetermineCompiler.cmake;C:\Strawberry\c\share\cmake-3.26\Modules\Compiler\Fujitsu-DetermineCompiler.cmake;C:\Strawberry\c\share\cmake-3.26\Modules\Compiler\FujitsuClang-DetermineCompiler.cmake;C:\Strawberry\c\share\cmake-3.26\Modules\Compiler\GHS-DetermineCompiler.cmake;C:\Strawberry\c\share\cmake-3.26\Modules\Compiler\GNU-C-DetermineCompiler.cmake;C:\Strawberry\c\share\cmake-3.26\Modules\Compiler\GNU-CXX-DetermineCompiler.cmake;C:\Strawberry\c\share\cmake-3.26\Modules\Compiler\HP-C-DetermineCompiler.cmake;C:\Strawberry\c\share\cmake-3.26\Modules\Compiler\HP-CXX-DetermineCompiler.cmake;C:\Strawberry\c\share\cmake-3.26\Modules\Compiler\IAR-DetermineCompiler.cmake;C:\Strawberry\c\share\cmake-3.26\Modules\Compiler\IBMCPP-C-DetermineVersionInternal.cmake;C:\Strawberry\c\share\cmake-3.26\Modules\Compiler\IBMCPP-CXX-DetermineVersionInternal.cmake;C:\Strawberry\c\share\cmake-3.26\Modules\Compiler\IBMClang-C-DetermineCompiler.cmake;C:\Strawberry\c\share\cmake-3.26\Modules\Compiler\IBMClang-CXX-DetermineCompiler.cmake;C:\Strawberry\c\share\cmake-3.26\Modules\Compiler\Intel-DetermineCompiler.cmake;C:\Strawberry\c\share\cmake-3.26\Modules\Compiler\IntelLLVM-DetermineCompiler.cmake;C:\Strawberry\c\share\cmake-3.26\Modules\Compiler\LCC-C-DetermineCompiler.cmake;C:\Strawberry\c\share\cmake-3.26\Modules\Compiler\LCC-CXX-DetermineCompiler.cmake;C:\Strawberry\c\share\cmake-3.26\Modules\Compiler\MSVC-C.cmake;C:\Strawberry\c\share\cmake-3.26\Modules\Compiler\MSVC-CXX.cmake;C:\Strawberry\c\share\cmake-3.26\Modules\Compiler\MSVC-DetermineCompiler.cmake;C:\Strawberry\c\share\cmake-3.26\Modules\Compiler\MSVC.cmake;C:\Strawberry\c\share\cmake-3.26\Modules\Compiler\NVHPC-DetermineCompiler.cmake;C:\Strawberry\c\share\cmake-3.26\Modules\Compiler\NVIDIA-DetermineCompiler.cmake;C:\Strawberry\c\share\cmake-3.26\Modules\Compiler\OpenWatcom-DetermineCompiler.cmake;C:\Strawberry\c\share\cmake-3.26\Modules\Compiler\PGI-DetermineCompiler.cmake;C:\Strawberry\c\share\cmake-3.26\Modules\Compiler\PathScale-DetermineCompiler.cmake;C:\Strawberry\c\share\cmake-3.26\Modules\Compiler\SCO-DetermineCompiler.cmake;C:\Strawberry\c\share\cmake-3.26\Modules\Compiler\SDCC-C-DetermineCompiler.cmake;C:\Strawberry\c\share\cmake-3.26\Modules\Compiler\SunPro-C-DetermineCompiler.cmake;C:\Strawberry\c\share\cmake-3.26\Modules\Compiler\SunPro-CXX-DetermineCompiler.cmake;C:\Strawberry\c\share\cmake-3.26\Modules\Compiler\TI-DetermineCompiler.cmake;C:\Strawberry\c\share\cmake-3.26\Modules\Compiler\Tasking-DetermineCompiler.cmake;C:\Strawberry\c\share\cmake-3.26\Modules\Compiler\TinyCC-C-DetermineCompiler.cmake;C:\Strawberry\c\share\cmake-3.26\Modules\Compiler\VisualAge-C-DetermineCompiler.cmake;C:\Strawberry\c\share\cmake-3.26\Modules\Compiler\VisualAge-CXX-DetermineCompiler.cmake;C:\Strawberry\c\share\cmake-3.26\Modules\Compiler\Watcom-DetermineCompiler.cmake;C:\Strawberry\c\share\cmake-3.26\Modules\Compiler\XL-C-DetermineCompiler.cmake;C:\Strawberry\c\share\cmake-3.26\Modules\Compiler\XL-CXX-DetermineCompiler.cmake;C:\Strawberry\c\share\cmake-3.26\Modules\Compiler\XLClang-C-DetermineCompiler.cmake;C:\Strawberry\c\share\cmake-3.26\Modules\Compiler\XLClang-CXX-DetermineCompiler.cmake;C:\Strawberry\c\share\cmake-3.26\Modules\Compiler\zOS-C-DetermineCompiler.cmake;C:\Strawberry\c\share\cmake-3.26\Modules\Compiler\zOS-CXX-DetermineCompiler.cmake;C:\Strawberry\c\share\cmake-3.26\Modules\CompilerId\VS-10.vcxproj.in;C:\Strawberry\c\share\cmake-3.26\Modules\FindPackageHandleStandardArgs.cmake;C:\Strawberry\c\share\cmake-3.26\Modules\FindPackageMessage.cmake;C:\Strawberry\c\share\cmake-3.26\Modules\FindThreads.cmake;C:\Strawberry\c\share\cmake-3.26\Modules\Internal\CheckSourceCompiles.cmake;C:\Strawberry\c\share\cmake-3.26\Modules\Internal\FeatureTesting.cmake;C:\Strawberry\c\share\cmake-3.26\Modules\Platform\Windows-Determine-CXX.cmake;C:\Strawberry\c\share\cmake-3.26\Modules\Platform\Windows-MSVC-C.cmake;C:\Strawberry\c\share\cmake-3.26\Modules\Platform\Windows-MSVC-CXX.cmake;C:\Strawberry\c\share\cmake-3.26\Modules\Platform\Windows-MSVC.cmake;C:\Strawberry\c\share\cmake-3.26\Modules\Platform\Windows.cmake;C:\Strawberry\c\share\cmake-3.26\Modules\Platform\WindowsPaths.cmake;C:\Users\Ercan\OneDrive\Masaüstü\VirtualMuseum\build\CMakeFiles\3.26.4\CMakeCCompiler.cmake;C:\Users\Ercan\OneDrive\Masaüstü\VirtualMuseum\build\CMakeFiles\3.26.4\CMakeCXXCompiler.cmake;C:\Users\Ercan\OneDrive\Masaüstü\VirtualMuseum\build\CMakeFiles\3.26.4\CMakeRCCompiler.cmake;C:\Users\Ercan\OneDrive\Masaüstü\VirtualMuseum\build\CMakeFiles\3.26.4\CMakeSystem.cmake;C:\vcpkg\installed\x64-windows\share\assimp\assimpConfig.cmake;C:\vcpkg\installed\x64-windows\share\assimp\assimpConfigVersion.cmake;C:\vcpkg\installed\x64-windows\share\assimp\assimpTargets-debug.cmake;C:\vcpkg\installed\x64-windows\share\assimp\assimpTargets-release.cmake;C:\vcpkg\installed\x64-windows\share\assimp\assimpTargets.cmake;C:\vcpkg\installed\x64-windows\share\glad\gladConfig.cmake;C:\vcpkg\installed\x64-windows\share\glad\gladConfigVersion.cmake;C:\vcpkg\installed\x64-windows\share\glad\gladTargets-debug.cmake;C:\vcpkg\installed\x64-windows\share\glad\gladTargets-release.cmake;C:\vcpkg\installed\x64-windows\share\glad\gladTargets.cmake;C:\vcpkg\installed\x64-windows\share\glfw3\glfw3Config.cmake;C:\vcpkg\installed\x64-windows\share\glfw3\glfw3ConfigVersion.cmake;C:\vcpkg\installed\x64-windows\share\glfw3\glfw3Targets-debug.cmake;C:\vcpkg\installed\x64-windows\share\glfw3\glfw3Targets-release.cmake;C:\vcpkg\installed\x64-windows\share\glfw3\glfw3Targets.cmake;C:\vcpkg\installed\x64-windows\share\glm\glmConfig-debug.cmake;C:\vcpkg\installed\x64-windows\share\glm\glmConfig-release.cmake;C:\vcpkg\installed\x64-windows\share\glm\glmConfig.cmake;C:\vcpkg\installed\x64-windows\share\glm\glmConfigVersion.cmake;C:\vcpkg\installed\x64-windows\share\imgui\imgui-config.cmake;C:\vcpkg\installed\x64-windows\share\imgui\imgui-targets-debug.cmake;C:\vcpkg\installed\x64-windows\share\imgui\imgui-targets-release.cmake;C:\vcpkg\installed\x64-windows\share\imgui\imgui-targets.cmake;C:\vcpkg\scripts\buildsystems\vcpkg.cmake;%(AdditionalInputs)</AdditionalInputs>
+      <Outputs Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">C:\Users\Ercan\OneDrive\Masaüstü\VirtualMuseum\build\CMakeFiles\generate.stamp</Outputs>
+      <LinkObjects Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">false</LinkObjects>
+      <Message Condition="'$(Configuration)|$(Platform)'=='Release|x64'">Building Custom Rule C:/Users/Ercan/OneDrive/Masaüstü/VirtualMuseum/CMakeLists.txt</Message>
+      <Command Condition="'$(Configuration)|$(Platform)'=='Release|x64'">setlocal
+C:\Strawberry\c\bin\cmake.exe -SC:/Users/Ercan/OneDrive/Masaüstü/VirtualMuseum -BC:/Users/Ercan/OneDrive/Masaüstü/VirtualMuseum/build --check-stamp-file C:/Users/Ercan/OneDrive/Masaüstü/VirtualMuseum/build/CMakeFiles/generate.stamp
+if %errorlevel% neq 0 goto :cmEnd
+:cmEnd
+endlocal &amp; call :cmErrorLevel %errorlevel% &amp; goto :cmDone
+:cmErrorLevel
+exit /b %1
+:cmDone
+if %errorlevel% neq 0 goto :VCEnd</Command>
+      <AdditionalInputs Condition="'$(Configuration)|$(Platform)'=='Release|x64'">C:\Strawberry\c\share\cmake-3.26\Modules\CMakeCCompiler.cmake.in;C:\Strawberry\c\share\cmake-3.26\Modules\CMakeCCompilerABI.c;C:\Strawberry\c\share\cmake-3.26\Modules\CMakeCInformation.cmake;C:\Strawberry\c\share\cmake-3.26\Modules\CMakeCXXCompiler.cmake.in;C:\Strawberry\c\share\cmake-3.26\Modules\CMakeCXXCompilerABI.cpp;C:\Strawberry\c\share\cmake-3.26\Modules\CMakeCXXInformation.cmake;C:\Strawberry\c\share\cmake-3.26\Modules\CMakeCommonLanguageInclude.cmake;C:\Strawberry\c\share\cmake-3.26\Modules\CMakeCompilerIdDetection.cmake;C:\Strawberry\c\share\cmake-3.26\Modules\CMakeDependentOption.cmake;C:\Strawberry\c\share\cmake-3.26\Modules\CMakeDetermineCCompiler.cmake;C:\Strawberry\c\share\cmake-3.26\Modules\CMakeDetermineCXXCompiler.cmake;C:\Strawberry\c\share\cmake-3.26\Modules\CMakeDetermineCompileFeatures.cmake;C:\Strawberry\c\share\cmake-3.26\Modules\CMakeDetermineCompiler.cmake;C:\Strawberry\c\share\cmake-3.26\Modules\CMakeDetermineCompilerABI.cmake;C:\Strawberry\c\share\cmake-3.26\Modules\CMakeDetermineCompilerId.cmake;C:\Strawberry\c\share\cmake-3.26\Modules\CMakeDetermineRCCompiler.cmake;C:\Strawberry\c\share\cmake-3.26\Modules\CMakeDetermineSystem.cmake;C:\Strawberry\c\share\cmake-3.26\Modules\CMakeFindBinUtils.cmake;C:\Strawberry\c\share\cmake-3.26\Modules\CMakeFindDependencyMacro.cmake;C:\Strawberry\c\share\cmake-3.26\Modules\CMakeGenericSystem.cmake;C:\Strawberry\c\share\cmake-3.26\Modules\CMakeInitializeConfigs.cmake;C:\Strawberry\c\share\cmake-3.26\Modules\CMakeLanguageInformation.cmake;C:\Strawberry\c\share\cmake-3.26\Modules\CMakeParseImplicitIncludeInfo.cmake;C:\Strawberry\c\share\cmake-3.26\Modules\CMakeParseImplicitLinkInfo.cmake;C:\Strawberry\c\share\cmake-3.26\Modules\CMakeParseLibraryArchitecture.cmake;C:\Strawberry\c\share\cmake-3.26\Modules\CMakeRCCompiler.cmake.in;C:\Strawberry\c\share\cmake-3.26\Modules\CMakeRCInformation.cmake;C:\Strawberry\c\share\cmake-3.26\Modules\CMakeSystem.cmake.in;C:\Strawberry\c\share\cmake-3.26\Modules\CMakeSystemSpecificInformation.cmake;C:\Strawberry\c\share\cmake-3.26\Modules\CMakeSystemSpecificInitialize.cmake;C:\Strawberry\c\share\cmake-3.26\Modules\CMakeTestCCompiler.cmake;C:\Strawberry\c\share\cmake-3.26\Modules\CMakeTestCXXCompiler.cmake;C:\Strawberry\c\share\cmake-3.26\Modules\CMakeTestCompilerCommon.cmake;C:\Strawberry\c\share\cmake-3.26\Modules\CMakeTestRCCompiler.cmake;C:\Strawberry\c\share\cmake-3.26\Modules\CheckCSourceCompiles.cmake;C:\Strawberry\c\share\cmake-3.26\Modules\CheckIncludeFile.cmake;C:\Strawberry\c\share\cmake-3.26\Modules\CheckLibraryExists.cmake;C:\Strawberry\c\share\cmake-3.26\Modules\Compiler\ADSP-DetermineCompiler.cmake;C:\Strawberry\c\share\cmake-3.26\Modules\Compiler\ARMCC-DetermineCompiler.cmake;C:\Strawberry\c\share\cmake-3.26\Modules\Compiler\ARMClang-DetermineCompiler.cmake;C:\Strawberry\c\share\cmake-3.26\Modules\Compiler\AppleClang-DetermineCompiler.cmake;C:\Strawberry\c\share\cmake-3.26\Modules\Compiler\Borland-DetermineCompiler.cmake;C:\Strawberry\c\share\cmake-3.26\Modules\Compiler\Bruce-C-DetermineCompiler.cmake;C:\Strawberry\c\share\cmake-3.26\Modules\Compiler\CMakeCommonCompilerMacros.cmake;C:\Strawberry\c\share\cmake-3.26\Modules\Compiler\Clang-DetermineCompiler.cmake;C:\Strawberry\c\share\cmake-3.26\Modules\Compiler\Clang-DetermineCompilerInternal.cmake;C:\Strawberry\c\share\cmake-3.26\Modules\Compiler\Comeau-CXX-DetermineCompiler.cmake;C:\Strawberry\c\share\cmake-3.26\Modules\Compiler\Compaq-C-DetermineCompiler.cmake;C:\Strawberry\c\share\cmake-3.26\Modules\Compiler\Compaq-CXX-DetermineCompiler.cmake;C:\Strawberry\c\share\cmake-3.26\Modules\Compiler\Cray-DetermineCompiler.cmake;C:\Strawberry\c\share\cmake-3.26\Modules\Compiler\Embarcadero-DetermineCompiler.cmake;C:\Strawberry\c\share\cmake-3.26\Modules\Compiler\Fujitsu-DetermineCompiler.cmake;C:\Strawberry\c\share\cmake-3.26\Modules\Compiler\FujitsuClang-DetermineCompiler.cmake;C:\Strawberry\c\share\cmake-3.26\Modules\Compiler\GHS-DetermineCompiler.cmake;C:\Strawberry\c\share\cmake-3.26\Modules\Compiler\GNU-C-DetermineCompiler.cmake;C:\Strawberry\c\share\cmake-3.26\Modules\Compiler\GNU-CXX-DetermineCompiler.cmake;C:\Strawberry\c\share\cmake-3.26\Modules\Compiler\HP-C-DetermineCompiler.cmake;C:\Strawberry\c\share\cmake-3.26\Modules\Compiler\HP-CXX-DetermineCompiler.cmake;C:\Strawberry\c\share\cmake-3.26\Modules\Compiler\IAR-DetermineCompiler.cmake;C:\Strawberry\c\share\cmake-3.26\Modules\Compiler\IBMCPP-C-DetermineVersionInternal.cmake;C:\Strawberry\c\share\cmake-3.26\Modules\Compiler\IBMCPP-CXX-DetermineVersionInternal.cmake;C:\Strawberry\c\share\cmake-3.26\Modules\Compiler\IBMClang-C-DetermineCompiler.cmake;C:\Strawberry\c\share\cmake-3.26\Modules\Compiler\IBMClang-CXX-DetermineCompiler.cmake;C:\Strawberry\c\share\cmake-3.26\Modules\Compiler\Intel-DetermineCompiler.cmake;C:\Strawberry\c\share\cmake-3.26\Modules\Compiler\IntelLLVM-DetermineCompiler.cmake;C:\Strawberry\c\share\cmake-3.26\Modules\Compiler\LCC-C-DetermineCompiler.cmake;C:\Strawberry\c\share\cmake-3.26\Modules\Compiler\LCC-CXX-DetermineCompiler.cmake;C:\Strawberry\c\share\cmake-3.26\Modules\Compiler\MSVC-C.cmake;C:\Strawberry\c\share\cmake-3.26\Modules\Compiler\MSVC-CXX.cmake;C:\Strawberry\c\share\cmake-3.26\Modules\Compiler\MSVC-DetermineCompiler.cmake;C:\Strawberry\c\share\cmake-3.26\Modules\Compiler\MSVC.cmake;C:\Strawberry\c\share\cmake-3.26\Modules\Compiler\NVHPC-DetermineCompiler.cmake;C:\Strawberry\c\share\cmake-3.26\Modules\Compiler\NVIDIA-DetermineCompiler.cmake;C:\Strawberry\c\share\cmake-3.26\Modules\Compiler\OpenWatcom-DetermineCompiler.cmake;C:\Strawberry\c\share\cmake-3.26\Modules\Compiler\PGI-DetermineCompiler.cmake;C:\Strawberry\c\share\cmake-3.26\Modules\Compiler\PathScale-DetermineCompiler.cmake;C:\Strawberry\c\share\cmake-3.26\Modules\Compiler\SCO-DetermineCompiler.cmake;C:\Strawberry\c\share\cmake-3.26\Modules\Compiler\SDCC-C-DetermineCompiler.cmake;C:\Strawberry\c\share\cmake-3.26\Modules\Compiler\SunPro-C-DetermineCompiler.cmake;C:\Strawberry\c\share\cmake-3.26\Modules\Compiler\SunPro-CXX-DetermineCompiler.cmake;C:\Strawberry\c\share\cmake-3.26\Modules\Compiler\TI-DetermineCompiler.cmake;C:\Strawberry\c\share\cmake-3.26\Modules\Compiler\Tasking-DetermineCompiler.cmake;C:\Strawberry\c\share\cmake-3.26\Modules\Compiler\TinyCC-C-DetermineCompiler.cmake;C:\Strawberry\c\share\cmake-3.26\Modules\Compiler\VisualAge-C-DetermineCompiler.cmake;C:\Strawberry\c\share\cmake-3.26\Modules\Compiler\VisualAge-CXX-DetermineCompiler.cmake;C:\Strawberry\c\share\cmake-3.26\Modules\Compiler\Watcom-DetermineCompiler.cmake;C:\Strawberry\c\share\cmake-3.26\Modules\Compiler\XL-C-DetermineCompiler.cmake;C:\Strawberry\c\share\cmake-3.26\Modules\Compiler\XL-CXX-DetermineCompiler.cmake;C:\Strawberry\c\share\cmake-3.26\Modules\Compiler\XLClang-C-DetermineCompiler.cmake;C:\Strawberry\c\share\cmake-3.26\Modules\Compiler\XLClang-CXX-DetermineCompiler.cmake;C:\Strawberry\c\share\cmake-3.26\Modules\Compiler\zOS-C-DetermineCompiler.cmake;C:\Strawberry\c\share\cmake-3.26\Modules\Compiler\zOS-CXX-DetermineCompiler.cmake;C:\Strawberry\c\share\cmake-3.26\Modules\CompilerId\VS-10.vcxproj.in;C:\Strawberry\c\share\cmake-3.26\Modules\FindPackageHandleStandardArgs.cmake;C:\Strawberry\c\share\cmake-3.26\Modules\FindPackageMessage.cmake;C:\Strawberry\c\share\cmake-3.26\Modules\FindThreads.cmake;C:\Strawberry\c\share\cmake-3.26\Modules\Internal\CheckSourceCompiles.cmake;C:\Strawberry\c\share\cmake-3.26\Modules\Internal\FeatureTesting.cmake;C:\Strawberry\c\share\cmake-3.26\Modules\Platform\Windows-Determine-CXX.cmake;C:\Strawberry\c\share\cmake-3.26\Modules\Platform\Windows-MSVC-C.cmake;C:\Strawberry\c\share\cmake-3.26\Modules\Platform\Windows-MSVC-CXX.cmake;C:\Strawberry\c\share\cmake-3.26\Modules\Platform\Windows-MSVC.cmake;C:\Strawberry\c\share\cmake-3.26\Modules\Platform\Windows.cmake;C:\Strawberry\c\share\cmake-3.26\Modules\Platform\WindowsPaths.cmake;C:\Users\Ercan\OneDrive\Masaüstü\VirtualMuseum\build\CMakeFiles\3.26.4\CMakeCCompiler.cmake;C:\Users\Ercan\OneDrive\Masaüstü\VirtualMuseum\build\CMakeFiles\3.26.4\CMakeCXXCompiler.cmake;C:\Users\Ercan\OneDrive\Masaüstü\VirtualMuseum\build\CMakeFiles\3.26.4\CMakeRCCompiler.cmake;C:\Users\Ercan\OneDrive\Masaüstü\VirtualMuseum\build\CMakeFiles\3.26.4\CMakeSystem.cmake;C:\vcpkg\installed\x64-windows\share\assimp\assimpConfig.cmake;C:\vcpkg\installed\x64-windows\share\assimp\assimpConfigVersion.cmake;C:\vcpkg\installed\x64-windows\share\assimp\assimpTargets-debug.cmake;C:\vcpkg\installed\x64-windows\share\assimp\assimpTargets-release.cmake;C:\vcpkg\installed\x64-windows\share\assimp\assimpTargets.cmake;C:\vcpkg\installed\x64-windows\share\glad\gladConfig.cmake;C:\vcpkg\installed\x64-windows\share\glad\gladConfigVersion.cmake;C:\vcpkg\installed\x64-windows\share\glad\gladTargets-debug.cmake;C:\vcpkg\installed\x64-windows\share\glad\gladTargets-release.cmake;C:\vcpkg\installed\x64-windows\share\glad\gladTargets.cmake;C:\vcpkg\installed\x64-windows\share\glfw3\glfw3Config.cmake;C:\vcpkg\installed\x64-windows\share\glfw3\glfw3ConfigVersion.cmake;C:\vcpkg\installed\x64-windows\share\glfw3\glfw3Targets-debug.cmake;C:\vcpkg\installed\x64-windows\share\glfw3\glfw3Targets-release.cmake;C:\vcpkg\installed\x64-windows\share\glfw3\glfw3Targets.cmake;C:\vcpkg\installed\x64-windows\share\glm\glmConfig-debug.cmake;C:\vcpkg\installed\x64-windows\share\glm\glmConfig-release.cmake;C:\vcpkg\installed\x64-windows\share\glm\glmConfig.cmake;C:\vcpkg\installed\x64-windows\share\glm\glmConfigVersion.cmake;C:\vcpkg\installed\x64-windows\share\imgui\imgui-config.cmake;C:\vcpkg\installed\x64-windows\share\imgui\imgui-targets-debug.cmake;C:\vcpkg\installed\x64-windows\share\imgui\imgui-targets-release.cmake;C:\vcpkg\installed\x64-windows\share\imgui\imgui-targets.cmake;C:\vcpkg\scripts\buildsystems\vcpkg.cmake;%(AdditionalInputs)</AdditionalInputs>
+      <Outputs Condition="'$(Configuration)|$(Platform)'=='Release|x64'">C:\Users\Ercan\OneDrive\Masaüstü\VirtualMuseum\build\CMakeFiles\generate.stamp</Outputs>
+      <LinkObjects Condition="'$(Configuration)|$(Platform)'=='Release|x64'">false</LinkObjects>
+      <Message Condition="'$(Configuration)|$(Platform)'=='MinSizeRel|x64'">Building Custom Rule C:/Users/Ercan/OneDrive/Masaüstü/VirtualMuseum/CMakeLists.txt</Message>
+      <Command Condition="'$(Configuration)|$(Platform)'=='MinSizeRel|x64'">setlocal
+C:\Strawberry\c\bin\cmake.exe -SC:/Users/Ercan/OneDrive/Masaüstü/VirtualMuseum -BC:/Users/Ercan/OneDrive/Masaüstü/VirtualMuseum/build --check-stamp-file C:/Users/Ercan/OneDrive/Masaüstü/VirtualMuseum/build/CMakeFiles/generate.stamp
+if %errorlevel% neq 0 goto :cmEnd
+:cmEnd
+endlocal &amp; call :cmErrorLevel %errorlevel% &amp; goto :cmDone
+:cmErrorLevel
+exit /b %1
+:cmDone
+if %errorlevel% neq 0 goto :VCEnd</Command>
+      <AdditionalInputs Condition="'$(Configuration)|$(Platform)'=='MinSizeRel|x64'">C:\Strawberry\c\share\cmake-3.26\Modules\CMakeCCompiler.cmake.in;C:\Strawberry\c\share\cmake-3.26\Modules\CMakeCCompilerABI.c;C:\Strawberry\c\share\cmake-3.26\Modules\CMakeCInformation.cmake;C:\Strawberry\c\share\cmake-3.26\Modules\CMakeCXXCompiler.cmake.in;C:\Strawberry\c\share\cmake-3.26\Modules\CMakeCXXCompilerABI.cpp;C:\Strawberry\c\share\cmake-3.26\Modules\CMakeCXXInformation.cmake;C:\Strawberry\c\share\cmake-3.26\Modules\CMakeCommonLanguageInclude.cmake;C:\Strawberry\c\share\cmake-3.26\Modules\CMakeCompilerIdDetection.cmake;C:\Strawberry\c\share\cmake-3.26\Modules\CMakeDependentOption.cmake;C:\Strawberry\c\share\cmake-3.26\Modules\CMakeDetermineCCompiler.cmake;C:\Strawberry\c\share\cmake-3.26\Modules\CMakeDetermineCXXCompiler.cmake;C:\Strawberry\c\share\cmake-3.26\Modules\CMakeDetermineCompileFeatures.cmake;C:\Strawberry\c\share\cmake-3.26\Modules\CMakeDetermineCompiler.cmake;C:\Strawberry\c\share\cmake-3.26\Modules\CMakeDetermineCompilerABI.cmake;C:\Strawberry\c\share\cmake-3.26\Modules\CMakeDetermineCompilerId.cmake;C:\Strawberry\c\share\cmake-3.26\Modules\CMakeDetermineRCCompiler.cmake;C:\Strawberry\c\share\cmake-3.26\Modules\CMakeDetermineSystem.cmake;C:\Strawberry\c\share\cmake-3.26\Modules\CMakeFindBinUtils.cmake;C:\Strawberry\c\share\cmake-3.26\Modules\CMakeFindDependencyMacro.cmake;C:\Strawberry\c\share\cmake-3.26\Modules\CMakeGenericSystem.cmake;C:\Strawberry\c\share\cmake-3.26\Modules\CMakeInitializeConfigs.cmake;C:\Strawberry\c\share\cmake-3.26\Modules\CMakeLanguageInformation.cmake;C:\Strawberry\c\share\cmake-3.26\Modules\CMakeParseImplicitIncludeInfo.cmake;C:\Strawberry\c\share\cmake-3.26\Modules\CMakeParseImplicitLinkInfo.cmake;C:\Strawberry\c\share\cmake-3.26\Modules\CMakeParseLibraryArchitecture.cmake;C:\Strawberry\c\share\cmake-3.26\Modules\CMakeRCCompiler.cmake.in;C:\Strawberry\c\share\cmake-3.26\Modules\CMakeRCInformation.cmake;C:\Strawberry\c\share\cmake-3.26\Modules\CMakeSystem.cmake.in;C:\Strawberry\c\share\cmake-3.26\Modules\CMakeSystemSpecificInformation.cmake;C:\Strawberry\c\share\cmake-3.26\Modules\CMakeSystemSpecificInitialize.cmake;C:\Strawberry\c\share\cmake-3.26\Modules\CMakeTestCCompiler.cmake;C:\Strawberry\c\share\cmake-3.26\Modules\CMakeTestCXXCompiler.cmake;C:\Strawberry\c\share\cmake-3.26\Modules\CMakeTestCompilerCommon.cmake;C:\Strawberry\c\share\cmake-3.26\Modules\CMakeTestRCCompiler.cmake;C:\Strawberry\c\share\cmake-3.26\Modules\CheckCSourceCompiles.cmake;C:\Strawberry\c\share\cmake-3.26\Modules\CheckIncludeFile.cmake;C:\Strawberry\c\share\cmake-3.26\Modules\CheckLibraryExists.cmake;C:\Strawberry\c\share\cmake-3.26\Modules\Compiler\ADSP-DetermineCompiler.cmake;C:\Strawberry\c\share\cmake-3.26\Modules\Compiler\ARMCC-DetermineCompiler.cmake;C:\Strawberry\c\share\cmake-3.26\Modules\Compiler\ARMClang-DetermineCompiler.cmake;C:\Strawberry\c\share\cmake-3.26\Modules\Compiler\AppleClang-DetermineCompiler.cmake;C:\Strawberry\c\share\cmake-3.26\Modules\Compiler\Borland-DetermineCompiler.cmake;C:\Strawberry\c\share\cmake-3.26\Modules\Compiler\Bruce-C-DetermineCompiler.cmake;C:\Strawberry\c\share\cmake-3.26\Modules\Compiler\CMakeCommonCompilerMacros.cmake;C:\Strawberry\c\share\cmake-3.26\Modules\Compiler\Clang-DetermineCompiler.cmake;C:\Strawberry\c\share\cmake-3.26\Modules\Compiler\Clang-DetermineCompilerInternal.cmake;C:\Strawberry\c\share\cmake-3.26\Modules\Compiler\Comeau-CXX-DetermineCompiler.cmake;C:\Strawberry\c\share\cmake-3.26\Modules\Compiler\Compaq-C-DetermineCompiler.cmake;C:\Strawberry\c\share\cmake-3.26\Modules\Compiler\Compaq-CXX-DetermineCompiler.cmake;C:\Strawberry\c\share\cmake-3.26\Modules\Compiler\Cray-DetermineCompiler.cmake;C:\Strawberry\c\share\cmake-3.26\Modules\Compiler\Embarcadero-DetermineCompiler.cmake;C:\Strawberry\c\share\cmake-3.26\Modules\Compiler\Fujitsu-DetermineCompiler.cmake;C:\Strawberry\c\share\cmake-3.26\Modules\Compiler\FujitsuClang-DetermineCompiler.cmake;C:\Strawberry\c\share\cmake-3.26\Modules\Compiler\GHS-DetermineCompiler.cmake;C:\Strawberry\c\share\cmake-3.26\Modules\Compiler\GNU-C-DetermineCompiler.cmake;C:\Strawberry\c\share\cmake-3.26\Modules\Compiler\GNU-CXX-DetermineCompiler.cmake;C:\Strawberry\c\share\cmake-3.26\Modules\Compiler\HP-C-DetermineCompiler.cmake;C:\Strawberry\c\share\cmake-3.26\Modules\Compiler\HP-CXX-DetermineCompiler.cmake;C:\Strawberry\c\share\cmake-3.26\Modules\Compiler\IAR-DetermineCompiler.cmake;C:\Strawberry\c\share\cmake-3.26\Modules\Compiler\IBMCPP-C-DetermineVersionInternal.cmake;C:\Strawberry\c\share\cmake-3.26\Modules\Compiler\IBMCPP-CXX-DetermineVersionInternal.cmake;C:\Strawberry\c\share\cmake-3.26\Modules\Compiler\IBMClang-C-DetermineCompiler.cmake;C:\Strawberry\c\share\cmake-3.26\Modules\Compiler\IBMClang-CXX-DetermineCompiler.cmake;C:\Strawberry\c\share\cmake-3.26\Modules\Compiler\Intel-DetermineCompiler.cmake;C:\Strawberry\c\share\cmake-3.26\Modules\Compiler\IntelLLVM-DetermineCompiler.cmake;C:\Strawberry\c\share\cmake-3.26\Modules\Compiler\LCC-C-DetermineCompiler.cmake;C:\Strawberry\c\share\cmake-3.26\Modules\Compiler\LCC-CXX-DetermineCompiler.cmake;C:\Strawberry\c\share\cmake-3.26\Modules\Compiler\MSVC-C.cmake;C:\Strawberry\c\share\cmake-3.26\Modules\Compiler\MSVC-CXX.cmake;C:\Strawberry\c\share\cmake-3.26\Modules\Compiler\MSVC-DetermineCompiler.cmake;C:\Strawberry\c\share\cmake-3.26\Modules\Compiler\MSVC.cmake;C:\Strawberry\c\share\cmake-3.26\Modules\Compiler\NVHPC-DetermineCompiler.cmake;C:\Strawberry\c\share\cmake-3.26\Modules\Compiler\NVIDIA-DetermineCompiler.cmake;C:\Strawberry\c\share\cmake-3.26\Modules\Compiler\OpenWatcom-DetermineCompiler.cmake;C:\Strawberry\c\share\cmake-3.26\Modules\Compiler\PGI-DetermineCompiler.cmake;C:\Strawberry\c\share\cmake-3.26\Modules\Compiler\PathScale-DetermineCompiler.cmake;C:\Strawberry\c\share\cmake-3.26\Modules\Compiler\SCO-DetermineCompiler.cmake;C:\Strawberry\c\share\cmake-3.26\Modules\Compiler\SDCC-C-DetermineCompiler.cmake;C:\Strawberry\c\share\cmake-3.26\Modules\Compiler\SunPro-C-DetermineCompiler.cmake;C:\Strawberry\c\share\cmake-3.26\Modules\Compiler\SunPro-CXX-DetermineCompiler.cmake;C:\Strawberry\c\share\cmake-3.26\Modules\Compiler\TI-DetermineCompiler.cmake;C:\Strawberry\c\share\cmake-3.26\Modules\Compiler\Tasking-DetermineCompiler.cmake;C:\Strawberry\c\share\cmake-3.26\Modules\Compiler\TinyCC-C-DetermineCompiler.cmake;C:\Strawberry\c\share\cmake-3.26\Modules\Compiler\VisualAge-C-DetermineCompiler.cmake;C:\Strawberry\c\share\cmake-3.26\Modules\Compiler\VisualAge-CXX-DetermineCompiler.cmake;C:\Strawberry\c\share\cmake-3.26\Modules\Compiler\Watcom-DetermineCompiler.cmake;C:\Strawberry\c\share\cmake-3.26\Modules\Compiler\XL-C-DetermineCompiler.cmake;C:\Strawberry\c\share\cmake-3.26\Modules\Compiler\XL-CXX-DetermineCompiler.cmake;C:\Strawberry\c\share\cmake-3.26\Modules\Compiler\XLClang-C-DetermineCompiler.cmake;C:\Strawberry\c\share\cmake-3.26\Modules\Compiler\XLClang-CXX-DetermineCompiler.cmake;C:\Strawberry\c\share\cmake-3.26\Modules\Compiler\zOS-C-DetermineCompiler.cmake;C:\Strawberry\c\share\cmake-3.26\Modules\Compiler\zOS-CXX-DetermineCompiler.cmake;C:\Strawberry\c\share\cmake-3.26\Modules\CompilerId\VS-10.vcxproj.in;C:\Strawberry\c\share\cmake-3.26\Modules\FindPackageHandleStandardArgs.cmake;C:\Strawberry\c\share\cmake-3.26\Modules\FindPackageMessage.cmake;C:\Strawberry\c\share\cmake-3.26\Modules\FindThreads.cmake;C:\Strawberry\c\share\cmake-3.26\Modules\Internal\CheckSourceCompiles.cmake;C:\Strawberry\c\share\cmake-3.26\Modules\Internal\FeatureTesting.cmake;C:\Strawberry\c\share\cmake-3.26\Modules\Platform\Windows-Determine-CXX.cmake;C:\Strawberry\c\share\cmake-3.26\Modules\Platform\Windows-MSVC-C.cmake;C:\Strawberry\c\share\cmake-3.26\Modules\Platform\Windows-MSVC-CXX.cmake;C:\Strawberry\c\share\cmake-3.26\Modules\Platform\Windows-MSVC.cmake;C:\Strawberry\c\share\cmake-3.26\Modules\Platform\Windows.cmake;C:\Strawberry\c\share\cmake-3.26\Modules\Platform\WindowsPaths.cmake;C:\Users\Ercan\OneDrive\Masaüstü\VirtualMuseum\build\CMakeFiles\3.26.4\CMakeCCompiler.cmake;C:\Users\Ercan\OneDrive\Masaüstü\VirtualMuseum\build\CMakeFiles\3.26.4\CMakeCXXCompiler.cmake;C:\Users\Ercan\OneDrive\Masaüstü\VirtualMuseum\build\CMakeFiles\3.26.4\CMakeRCCompiler.cmake;C:\Users\Ercan\OneDrive\Masaüstü\VirtualMuseum\build\CMakeFiles\3.26.4\CMakeSystem.cmake;C:\vcpkg\installed\x64-windows\share\assimp\assimpConfig.cmake;C:\vcpkg\installed\x64-windows\share\assimp\assimpConfigVersion.cmake;C:\vcpkg\installed\x64-windows\share\assimp\assimpTargets-debug.cmake;C:\vcpkg\installed\x64-windows\share\assimp\assimpTargets-release.cmake;C:\vcpkg\installed\x64-windows\share\assimp\assimpTargets.cmake;C:\vcpkg\installed\x64-windows\share\glad\gladConfig.cmake;C:\vcpkg\installed\x64-windows\share\glad\gladConfigVersion.cmake;C:\vcpkg\installed\x64-windows\share\glad\gladTargets-debug.cmake;C:\vcpkg\installed\x64-windows\share\glad\gladTargets-release.cmake;C:\vcpkg\installed\x64-windows\share\glad\gladTargets.cmake;C:\vcpkg\installed\x64-windows\share\glfw3\glfw3Config.cmake;C:\vcpkg\installed\x64-windows\share\glfw3\glfw3ConfigVersion.cmake;C:\vcpkg\installed\x64-windows\share\glfw3\glfw3Targets-debug.cmake;C:\vcpkg\installed\x64-windows\share\glfw3\glfw3Targets-release.cmake;C:\vcpkg\installed\x64-windows\share\glfw3\glfw3Targets.cmake;C:\vcpkg\installed\x64-windows\share\glm\glmConfig-debug.cmake;C:\vcpkg\installed\x64-windows\share\glm\glmConfig-release.cmake;C:\vcpkg\installed\x64-windows\share\glm\glmConfig.cmake;C:\vcpkg\installed\x64-windows\share\glm\glmConfigVersion.cmake;C:\vcpkg\installed\x64-windows\share\imgui\imgui-config.cmake;C:\vcpkg\installed\x64-windows\share\imgui\imgui-targets-debug.cmake;C:\vcpkg\installed\x64-windows\share\imgui\imgui-targets-release.cmake;C:\vcpkg\installed\x64-windows\share\imgui\imgui-targets.cmake;C:\vcpkg\scripts\buildsystems\vcpkg.cmake;%(AdditionalInputs)</AdditionalInputs>
+      <Outputs Condition="'$(Configuration)|$(Platform)'=='MinSizeRel|x64'">C:\Users\Ercan\OneDrive\Masaüstü\VirtualMuseum\build\CMakeFiles\generate.stamp</Outputs>
+      <LinkObjects Condition="'$(Configuration)|$(Platform)'=='MinSizeRel|x64'">false</LinkObjects>
+      <Message Condition="'$(Configuration)|$(Platform)'=='RelWithDebInfo|x64'">Building Custom Rule C:/Users/Ercan/OneDrive/Masaüstü/VirtualMuseum/CMakeLists.txt</Message>
+      <Command Condition="'$(Configuration)|$(Platform)'=='RelWithDebInfo|x64'">setlocal
+C:\Strawberry\c\bin\cmake.exe -SC:/Users/Ercan/OneDrive/Masaüstü/VirtualMuseum -BC:/Users/Ercan/OneDrive/Masaüstü/VirtualMuseum/build --check-stamp-file C:/Users/Ercan/OneDrive/Masaüstü/VirtualMuseum/build/CMakeFiles/generate.stamp
+if %errorlevel% neq 0 goto :cmEnd
+:cmEnd
+endlocal &amp; call :cmErrorLevel %errorlevel% &amp; goto :cmDone
+:cmErrorLevel
+exit /b %1
+:cmDone
+if %errorlevel% neq 0 goto :VCEnd</Command>
+      <AdditionalInputs Condition="'$(Configuration)|$(Platform)'=='RelWithDebInfo|x64'">C:\Strawberry\c\share\cmake-3.26\Modules\CMakeCCompiler.cmake.in;C:\Strawberry\c\share\cmake-3.26\Modules\CMakeCCompilerABI.c;C:\Strawberry\c\share\cmake-3.26\Modules\CMakeCInformation.cmake;C:\Strawberry\c\share\cmake-3.26\Modules\CMakeCXXCompiler.cmake.in;C:\Strawberry\c\share\cmake-3.26\Modules\CMakeCXXCompilerABI.cpp;C:\Strawberry\c\share\cmake-3.26\Modules\CMakeCXXInformation.cmake;C:\Strawberry\c\share\cmake-3.26\Modules\CMakeCommonLanguageInclude.cmake;C:\Strawberry\c\share\cmake-3.26\Modules\CMakeCompilerIdDetection.cmake;C:\Strawberry\c\share\cmake-3.26\Modules\CMakeDependentOption.cmake;C:\Strawberry\c\share\cmake-3.26\Modules\CMakeDetermineCCompiler.cmake;C:\Strawberry\c\share\cmake-3.26\Modules\CMakeDetermineCXXCompiler.cmake;C:\Strawberry\c\share\cmake-3.26\Modules\CMakeDetermineCompileFeatures.cmake;C:\Strawberry\c\share\cmake-3.26\Modules\CMakeDetermineCompiler.cmake;C:\Strawberry\c\share\cmake-3.26\Modules\CMakeDetermineCompilerABI.cmake;C:\Strawberry\c\share\cmake-3.26\Modules\CMakeDetermineCompilerId.cmake;C:\Strawberry\c\share\cmake-3.26\Modules\CMakeDetermineRCCompiler.cmake;C:\Strawberry\c\share\cmake-3.26\Modules\CMakeDetermineSystem.cmake;C:\Strawberry\c\share\cmake-3.26\Modules\CMakeFindBinUtils.cmake;C:\Strawberry\c\share\cmake-3.26\Modules\CMakeFindDependencyMacro.cmake;C:\Strawberry\c\share\cmake-3.26\Modules\CMakeGenericSystem.cmake;C:\Strawberry\c\share\cmake-3.26\Modules\CMakeInitializeConfigs.cmake;C:\Strawberry\c\share\cmake-3.26\Modules\CMakeLanguageInformation.cmake;C:\Strawberry\c\share\cmake-3.26\Modules\CMakeParseImplicitIncludeInfo.cmake;C:\Strawberry\c\share\cmake-3.26\Modules\CMakeParseImplicitLinkInfo.cmake;C:\Strawberry\c\share\cmake-3.26\Modules\CMakeParseLibraryArchitecture.cmake;C:\Strawberry\c\share\cmake-3.26\Modules\CMakeRCCompiler.cmake.in;C:\Strawberry\c\share\cmake-3.26\Modules\CMakeRCInformation.cmake;C:\Strawberry\c\share\cmake-3.26\Modules\CMakeSystem.cmake.in;C:\Strawberry\c\share\cmake-3.26\Modules\CMakeSystemSpecificInformation.cmake;C:\Strawberry\c\share\cmake-3.26\Modules\CMakeSystemSpecificInitialize.cmake;C:\Strawberry\c\share\cmake-3.26\Modules\CMakeTestCCompiler.cmake;C:\Strawberry\c\share\cmake-3.26\Modules\CMakeTestCXXCompiler.cmake;C:\Strawberry\c\share\cmake-3.26\Modules\CMakeTestCompilerCommon.cmake;C:\Strawberry\c\share\cmake-3.26\Modules\CMakeTestRCCompiler.cmake;C:\Strawberry\c\share\cmake-3.26\Modules\CheckCSourceCompiles.cmake;C:\Strawberry\c\share\cmake-3.26\Modules\CheckIncludeFile.cmake;C:\Strawberry\c\share\cmake-3.26\Modules\CheckLibraryExists.cmake;C:\Strawberry\c\share\cmake-3.26\Modules\Compiler\ADSP-DetermineCompiler.cmake;C:\Strawberry\c\share\cmake-3.26\Modules\Compiler\ARMCC-DetermineCompiler.cmake;C:\Strawberry\c\share\cmake-3.26\Modules\Compiler\ARMClang-DetermineCompiler.cmake;C:\Strawberry\c\share\cmake-3.26\Modules\Compiler\AppleClang-DetermineCompiler.cmake;C:\Strawberry\c\share\cmake-3.26\Modules\Compiler\Borland-DetermineCompiler.cmake;C:\Strawberry\c\share\cmake-3.26\Modules\Compiler\Bruce-C-DetermineCompiler.cmake;C:\Strawberry\c\share\cmake-3.26\Modules\Compiler\CMakeCommonCompilerMacros.cmake;C:\Strawberry\c\share\cmake-3.26\Modules\Compiler\Clang-DetermineCompiler.cmake;C:\Strawberry\c\share\cmake-3.26\Modules\Compiler\Clang-DetermineCompilerInternal.cmake;C:\Strawberry\c\share\cmake-3.26\Modules\Compiler\Comeau-CXX-DetermineCompiler.cmake;C:\Strawberry\c\share\cmake-3.26\Modules\Compiler\Compaq-C-DetermineCompiler.cmake;C:\Strawberry\c\share\cmake-3.26\Modules\Compiler\Compaq-CXX-DetermineCompiler.cmake;C:\Strawberry\c\share\cmake-3.26\Modules\Compiler\Cray-DetermineCompiler.cmake;C:\Strawberry\c\share\cmake-3.26\Modules\Compiler\Embarcadero-DetermineCompiler.cmake;C:\Strawberry\c\share\cmake-3.26\Modules\Compiler\Fujitsu-DetermineCompiler.cmake;C:\Strawberry\c\share\cmake-3.26\Modules\Compiler\FujitsuClang-DetermineCompiler.cmake;C:\Strawberry\c\share\cmake-3.26\Modules\Compiler\GHS-DetermineCompiler.cmake;C:\Strawberry\c\share\cmake-3.26\Modules\Compiler\GNU-C-DetermineCompiler.cmake;C:\Strawberry\c\share\cmake-3.26\Modules\Compiler\GNU-CXX-DetermineCompiler.cmake;C:\Strawberry\c\share\cmake-3.26\Modules\Compiler\HP-C-DetermineCompiler.cmake;C:\Strawberry\c\share\cmake-3.26\Modules\Compiler\HP-CXX-DetermineCompiler.cmake;C:\Strawberry\c\share\cmake-3.26\Modules\Compiler\IAR-DetermineCompiler.cmake;C:\Strawberry\c\share\cmake-3.26\Modules\Compiler\IBMCPP-C-DetermineVersionInternal.cmake;C:\Strawberry\c\share\cmake-3.26\Modules\Compiler\IBMCPP-CXX-DetermineVersionInternal.cmake;C:\Strawberry\c\share\cmake-3.26\Modules\Compiler\IBMClang-C-DetermineCompiler.cmake;C:\Strawberry\c\share\cmake-3.26\Modules\Compiler\IBMClang-CXX-DetermineCompiler.cmake;C:\Strawberry\c\share\cmake-3.26\Modules\Compiler\Intel-DetermineCompiler.cmake;C:\Strawberry\c\share\cmake-3.26\Modules\Compiler\IntelLLVM-DetermineCompiler.cmake;C:\Strawberry\c\share\cmake-3.26\Modules\Compiler\LCC-C-DetermineCompiler.cmake;C:\Strawberry\c\share\cmake-3.26\Modules\Compiler\LCC-CXX-DetermineCompiler.cmake;C:\Strawberry\c\share\cmake-3.26\Modules\Compiler\MSVC-C.cmake;C:\Strawberry\c\share\cmake-3.26\Modules\Compiler\MSVC-CXX.cmake;C:\Strawberry\c\share\cmake-3.26\Modules\Compiler\MSVC-DetermineCompiler.cmake;C:\Strawberry\c\share\cmake-3.26\Modules\Compiler\MSVC.cmake;C:\Strawberry\c\share\cmake-3.26\Modules\Compiler\NVHPC-DetermineCompiler.cmake;C:\Strawberry\c\share\cmake-3.26\Modules\Compiler\NVIDIA-DetermineCompiler.cmake;C:\Strawberry\c\share\cmake-3.26\Modules\Compiler\OpenWatcom-DetermineCompiler.cmake;C:\Strawberry\c\share\cmake-3.26\Modules\Compiler\PGI-DetermineCompiler.cmake;C:\Strawberry\c\share\cmake-3.26\Modules\Compiler\PathScale-DetermineCompiler.cmake;C:\Strawberry\c\share\cmake-3.26\Modules\Compiler\SCO-DetermineCompiler.cmake;C:\Strawberry\c\share\cmake-3.26\Modules\Compiler\SDCC-C-DetermineCompiler.cmake;C:\Strawberry\c\share\cmake-3.26\Modules\Compiler\SunPro-C-DetermineCompiler.cmake;C:\Strawberry\c\share\cmake-3.26\Modules\Compiler\SunPro-CXX-DetermineCompiler.cmake;C:\Strawberry\c\share\cmake-3.26\Modules\Compiler\TI-DetermineCompiler.cmake;C:\Strawberry\c\share\cmake-3.26\Modules\Compiler\Tasking-DetermineCompiler.cmake;C:\Strawberry\c\share\cmake-3.26\Modules\Compiler\TinyCC-C-DetermineCompiler.cmake;C:\Strawberry\c\share\cmake-3.26\Modules\Compiler\VisualAge-C-DetermineCompiler.cmake;C:\Strawberry\c\share\cmake-3.26\Modules\Compiler\VisualAge-CXX-DetermineCompiler.cmake;C:\Strawberry\c\share\cmake-3.26\Modules\Compiler\Watcom-DetermineCompiler.cmake;C:\Strawberry\c\share\cmake-3.26\Modules\Compiler\XL-C-DetermineCompiler.cmake;C:\Strawberry\c\share\cmake-3.26\Modules\Compiler\XL-CXX-DetermineCompiler.cmake;C:\Strawberry\c\share\cmake-3.26\Modules\Compiler\XLClang-C-DetermineCompiler.cmake;C:\Strawberry\c\share\cmake-3.26\Modules\Compiler\XLClang-CXX-DetermineCompiler.cmake;C:\Strawberry\c\share\cmake-3.26\Modules\Compiler\zOS-C-DetermineCompiler.cmake;C:\Strawberry\c\share\cmake-3.26\Modules\Compiler\zOS-CXX-DetermineCompiler.cmake;C:\Strawberry\c\share\cmake-3.26\Modules\CompilerId\VS-10.vcxproj.in;C:\Strawberry\c\share\cmake-3.26\Modules\FindPackageHandleStandardArgs.cmake;C:\Strawberry\c\share\cmake-3.26\Modules\FindPackageMessage.cmake;C:\Strawberry\c\share\cmake-3.26\Modules\FindThreads.cmake;C:\Strawberry\c\share\cmake-3.26\Modules\Internal\CheckSourceCompiles.cmake;C:\Strawberry\c\share\cmake-3.26\Modules\Internal\FeatureTesting.cmake;C:\Strawberry\c\share\cmake-3.26\Modules\Platform\Windows-Determine-CXX.cmake;C:\Strawberry\c\share\cmake-3.26\Modules\Platform\Windows-MSVC-C.cmake;C:\Strawberry\c\share\cmake-3.26\Modules\Platform\Windows-MSVC-CXX.cmake;C:\Strawberry\c\share\cmake-3.26\Modules\Platform\Windows-MSVC.cmake;C:\Strawberry\c\share\cmake-3.26\Modules\Platform\Windows.cmake;C:\Strawberry\c\share\cmake-3.26\Modules\Platform\WindowsPaths.cmake;C:\Users\Ercan\OneDrive\Masaüstü\VirtualMuseum\build\CMakeFiles\3.26.4\CMakeCCompiler.cmake;C:\Users\Ercan\OneDrive\Masaüstü\VirtualMuseum\build\CMakeFiles\3.26.4\CMakeCXXCompiler.cmake;C:\Users\Ercan\OneDrive\Masaüstü\VirtualMuseum\build\CMakeFiles\3.26.4\CMakeRCCompiler.cmake;C:\Users\Ercan\OneDrive\Masaüstü\VirtualMuseum\build\CMakeFiles\3.26.4\CMakeSystem.cmake;C:\vcpkg\installed\x64-windows\share\assimp\assimpConfig.cmake;C:\vcpkg\installed\x64-windows\share\assimp\assimpConfigVersion.cmake;C:\vcpkg\installed\x64-windows\share\assimp\assimpTargets-debug.cmake;C:\vcpkg\installed\x64-windows\share\assimp\assimpTargets-release.cmake;C:\vcpkg\installed\x64-windows\share\assimp\assimpTargets.cmake;C:\vcpkg\installed\x64-windows\share\glad\gladConfig.cmake;C:\vcpkg\installed\x64-windows\share\glad\gladConfigVersion.cmake;C:\vcpkg\installed\x64-windows\share\glad\gladTargets-debug.cmake;C:\vcpkg\installed\x64-windows\share\glad\gladTargets-release.cmake;C:\vcpkg\installed\x64-windows\share\glad\gladTargets.cmake;C:\vcpkg\installed\x64-windows\share\glfw3\glfw3Config.cmake;C:\vcpkg\installed\x64-windows\share\glfw3\glfw3ConfigVersion.cmake;C:\vcpkg\installed\x64-windows\share\glfw3\glfw3Targets-debug.cmake;C:\vcpkg\installed\x64-windows\share\glfw3\glfw3Targets-release.cmake;C:\vcpkg\installed\x64-windows\share\glfw3\glfw3Targets.cmake;C:\vcpkg\installed\x64-windows\share\glm\glmConfig-debug.cmake;C:\vcpkg\installed\x64-windows\share\glm\glmConfig-release.cmake;C:\vcpkg\installed\x64-windows\share\glm\glmConfig.cmake;C:\vcpkg\installed\x64-windows\share\glm\glmConfigVersion.cmake;C:\vcpkg\installed\x64-windows\share\imgui\imgui-config.cmake;C:\vcpkg\installed\x64-windows\share\imgui\imgui-targets-debug.cmake;C:\vcpkg\installed\x64-windows\share\imgui\imgui-targets-release.cmake;C:\vcpkg\installed\x64-windows\share\imgui\imgui-targets.cmake;C:\vcpkg\scripts\buildsystems\vcpkg.cmake;%(AdditionalInputs)</AdditionalInputs>
+      <Outputs Condition="'$(Configuration)|$(Platform)'=='RelWithDebInfo|x64'">C:\Users\Ercan\OneDrive\Masaüstü\VirtualMuseum\build\CMakeFiles\generate.stamp</Outputs>
+      <LinkObjects Condition="'$(Configuration)|$(Platform)'=='RelWithDebInfo|x64'">false</LinkObjects>
+    </CustomBuild>
+  </ItemGroup>
+  <ItemGroup>
+    <ClCompile Include="C:\Users\Ercan\OneDrive\Masaüstü\VirtualMuseum\src\Mesh.cpp" />
+    <ClCompile Include="C:\Users\Ercan\OneDrive\Masaüstü\VirtualMuseum\src\Model.cpp" />
+    <ClCompile Include="C:\Users\Ercan\OneDrive\Masaüstü\VirtualMuseum\src\Robot.cpp" />
+    <ClCompile Include="C:\Users\Ercan\OneDrive\Masaüstü\VirtualMuseum\src\Scene.cpp" />
+    <ClCompile Include="C:\Users\Ercan\OneDrive\Masaüstü\VirtualMuseum\src\Shader.cpp" />
+    <ClCompile Include="C:\Users\Ercan\OneDrive\Masaüstü\VirtualMuseum\src\UIManager.cpp" />
+    <ClCompile Include="C:\Users\Ercan\OneDrive\Masaüstü\VirtualMuseum\src\demo.cpp" />
+    <ClCompile Include="C:\Users\Ercan\OneDrive\Masaüstü\VirtualMuseum\src\main.cpp" />
+    <ClCompile Include="C:\Users\Ercan\OneDrive\Masaüstü\VirtualMuseum\src\stb_image.cpp" />
+    <ClCompile Include="C:\Users\Ercan\OneDrive\Masaüstü\VirtualMuseum\extern\imgui\backends\imgui_impl_glfw.cpp" />
+    <ClCompile Include="C:\Users\Ercan\OneDrive\Masaüstü\VirtualMuseum\extern\imgui\backends\imgui_impl_opengl3.cpp" />
+  </ItemGroup>
+  <ItemGroup>
+    <ProjectReference Include="C:\Users\Ercan\OneDrive\Masaüstü\VirtualMuseum\build\ZERO_CHECK.vcxproj">
+      <Project>{A8C727B5-5BF9-36BE-8887-5CDEA4E9CCC3}</Project>
+      <Name>ZERO_CHECK</Name>
+      <ReferenceOutputAssembly>false</ReferenceOutputAssembly>
+      <CopyToOutputDirectory>Never</CopyToOutputDirectory>
+    </ProjectReference>
+  </ItemGroup>
+  <Import Project="$(VCTargetsPath)\Microsoft.Cpp.targets" />
+  <ImportGroup Label="ExtensionTargets">
+  </ImportGroup>
+</Project>
