@@ -37,7 +37,7 @@ Bu proje, C++/OpenGL ile yazılmış bir “Sanal Müze” uygulamasıdır. Beş
 ## 2. Projeyi Klonlama
 
 ```powershell
-cd C:\Users\Ercan\Desktop
+cd C:\Users\Teslime\Desktop
 git clone <proje-repo-adresi> VirtualMuseum
 cd VirtualMuseum
 ```
@@ -86,14 +86,14 @@ Program, çalışma dizininde `models/` ve `shaders/` klasörlerini arar.
 ### A) Proje kökünden çalıştırma (Önerilen)
 
 ```powershell
-cd C:\Users\Ercan\Desktop\VirtualMuseum
+cd C:\Users\Teslime\Desktop\VirtualMuseum
 .\build\Release\VirtualMuseum.exe
 ```
 
 ### B) build/Release altında çalıştırma
 
 ```powershell
-cd C:\Users\Ercan\Desktop\VirtualMuseum\build\Release
+cd C:\Users\Teslime\Desktop\VirtualMuseum\build\Release
 xcopy /E /I ..\..\models .\models
 xcopy /E /I ..\..\shaders .\shaders
 .\VirtualMuseum.exe
